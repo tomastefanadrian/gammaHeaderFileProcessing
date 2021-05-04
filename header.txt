@@ -1,0 +1,62 @@
+   1  point number
+   2  x pixel in the reference image
+   3  y pixel in the reference image
+   4  longitude (deg.)
+   5  latitude (deg.)
+   6  height (m)
+   7  deformation rate (mm/y)
+   8  standard deviation of the residual phase (rad)
+   9  estimated height uncertainty (m)
+  10  estimated deformation rate uncertainty (mm/y)
+  11  displacement (mm)  date: 2018 11  4     58144.789  JD:    17839.67297  days:  -204.00000
+  12  displacement (mm)  date: 2018 11 10     58186.479  JD:    17845.67345  days:  -197.99951
+  13  displacement (mm)  date: 2018 11 16     58144.625  JD:    17851.67297  days:  -192.00000
+  14  displacement (mm)  date: 2018 11 22     58186.198  JD:    17857.67345  days:  -185.99952
+  15  displacement (mm)  date: 2018 11 28     58144.084  JD:    17863.67296  days:  -180.00000
+  16  displacement (mm)  date: 2018 12  4     58185.903  JD:    17869.67345  days:  -173.99952
+  17  displacement (mm)  date: 2018 12 10     58143.722  JD:    17875.67296  days:  -168.00001
+  18  displacement (mm)  date: 2018 12 16     58185.239  JD:    17881.67344  days:  -161.99953
+  19  displacement (mm)  date: 2019  1 21     58184.119  JD:    17917.67343  days:  -125.99954
+  20  displacement (mm)  date: 2019  2  8     58141.786  JD:    17935.67294  days:  -108.00003
+  21  displacement (mm)  date: 2019  2 26     58183.380  JD:    17953.67342  days:   -89.99955
+  22  displacement (mm)  date: 2019  3  4     58141.551  JD:    17959.67293  days:   -84.00003
+  23  displacement (mm)  date: 2019  3 10     58183.325  JD:    17965.67342  days:   -77.99955
+  24  displacement (mm)  date: 2019  3 22     58183.482  JD:    17977.67342  days:   -65.99955
+  25  displacement (mm)  date: 2019  3 28     58141.850  JD:    17983.67294  days:   -60.00003
+  26  displacement (mm)  date: 2019  4  3     58183.785  JD:    17989.67342  days:   -53.99954
+  27  displacement (mm)  date: 2019  4 15     58184.045  JD:    18001.67343  days:   -41.99954
+  28  displacement (mm)  date: 2019  4 21     58142.648  JD:    18007.67295  days:   -36.00002
+  29  displacement (mm)  date: 2019  4 27     58184.787  JD:    18013.67344  days:   -29.99953
+  30  displacement (mm)  date: 2019  5  3     58143.247  JD:    18019.67295  days:   -24.00001
+  31  displacement (mm)  date: 2019  5  9     58184.915  JD:    18025.67344  days:   -17.99953
+  32  displacement (mm)  date: 2019  5 21     58185.763  JD:    18037.67345  days:    -5.99952
+  33  displacement (mm)  date: 2019  5 27     58144.357  JD:    18043.67297  days:     0.00000
+  34  displacement (mm)  date: 2019  6  2     58186.297  JD:    18049.67345  days:     6.00049
+  35  displacement (mm)  date: 2019  6  8     58144.956  JD:    18055.67297  days:    12.00001
+  36  displacement (mm)  date: 2019  6 14     58186.776  JD:    18061.67346  days:    18.00049
+  37  displacement (mm)  date: 2019  6 20     58145.724  JD:    18067.67298  days:    24.00002
+  38  displacement (mm)  date: 2019  6 26     58187.607  JD:    18073.67347  days:    30.00050
+  39  displacement (mm)  date: 2019  7 14     58147.118  JD:    18091.67300  days:    48.00003
+  40  displacement (mm)  date: 2019  7 20     58189.236  JD:    18097.67349  days:    54.00052
+  41  displacement (mm)  date: 2019  7 26     58147.844  JD:    18103.67301  days:    60.00004
+  42  displacement (mm)  date: 2019  8  1     58189.882  JD:    18109.67349  days:    66.00053
+  43  displacement (mm)  date: 2019  8  7     58148.673  JD:    18115.67302  days:    72.00005
+  44  displacement (mm)  date: 2019  8 19     58149.355  JD:    18127.67302  days:    84.00006
+  45  displacement (mm)  date: 2019  8 25     58191.414  JD:    18133.67351  days:    90.00054
+  46  displacement (mm)  date: 2019  8 31     58149.853  JD:    18139.67303  days:    96.00006
+  47  displacement (mm)  date: 2019  9  6     58191.974  JD:    18145.67352  days:   102.00055
+  48  displacement (mm)  date: 2019  9 12     58150.547  JD:    18151.67304  days:   108.00007
+  49  displacement (mm)  date: 2019  9 18     58192.351  JD:    18157.67352  days:   114.00056
+  50  displacement (mm)  date: 2019  9 24     58150.941  JD:    18163.67304  days:   120.00008
+  51  displacement (mm)  date: 2019  9 30     58192.990  JD:    18169.67353  days:   126.00056
+  52  displacement (mm)  date: 2019 10  6     58151.118  JD:    18175.67305  days:   132.00008
+  53  displacement (mm)  date: 2019 10 12     58192.917  JD:    18181.67353  days:   138.00056
+  54  displacement (mm)  date: 2019 10 18     58151.279  JD:    18187.67305  days:   144.00008
+  55  displacement (mm)  date: 2019 10 24     58192.852  JD:    18193.67353  days:   150.00056
+  56  displacement (mm)  date: 2019 10 30     58151.037  JD:    18199.67304  days:   156.00008
+  57  displacement (mm)  date: 2019 11  5     58192.993  JD:    18205.67353  days:   162.00056
+  58  displacement (mm)  date: 2019 11 11     58151.169  JD:    18211.67305  days:   168.00008
+
+reference point index: 149871
+reference point x,y pixel in the reference image: 1665  2643
+reference point easting, northing (m):     24.8870580     47.1761434
