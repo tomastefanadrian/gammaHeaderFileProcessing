@@ -6,8 +6,8 @@ class headerFileProcessing(object):
         '''
         self.headerFileName = fileName
         self.days=None
-        self.dates=None
-        self.referenceDate=None
+        self.dates=[]
+        self.referenceDate=[]
         self.referencePointCoordinates=[]
         
     #get time data
@@ -25,11 +25,31 @@ class headerFileProcessing(object):
                 # end of file is reached 
                 if not line: 
                     break
-            #print("Line{}: {}".format(count, line.strip())) 
+  
                 if 'displacement (mm)' in line:
                     tmp=line.split(' ')
+                    tmp[:] = [x for x in tmp if x]
                     tmp_day=int(float(tmp[-1]))
                     x.append(tmp_day)
+                    indexDate = [i for i in range(len(tmp)) if tmp[i] == 'date:']
+                    indexDate=indexDate[0]
+                    self.dates.append(tmp[indexDate+1])
+                    self.dates.append(tmp[indexDate+2])
+                    self.dates.append(tmp[indexDate+3])
+                    if (tmp_day==0):
+                        self.referenceDate.append(tmp[indexDate+1])
+                        self.referenceDate.append(tmp[indexDate+2])
+                        self.referenceDate.append(tmp[indexDate+3])
+                    # indexDate=indexDate+1
+                    # dateCount=1
+                    # while(dateCount<3):
+                    #     if tmp[indexDate].isnumeric():
+                    #         self.dates.append(tmp[indexDate])
+                    #         if (tmp_day==0):
+                    #             self.referenceDate.append(tmp[indexDate])
+                    #         dateCount=dateCount+1
+                    #     indexDate=indexDate+1
+                        
                 if 'reference point easting, northing (m):' in line:
                     tmp=line.split(' ')
                     for i in tmp:
@@ -40,8 +60,7 @@ class headerFileProcessing(object):
                                 
             file1.close()
             self.days=x
-            #days=np.array(x)
-            #days=days.reshape((-1, 1))
+
         except Exception as e:
             print(e)
             print("Error reading data from file .... or something!")
